@@ -1,0 +1,37 @@
+	<Alloy>
+        <Window id="calculateWin">
+            	<Label id="labelWindowTitle" text="Checkout"/>
+					<View id="checkoutDataGroup">
+						<View class="checkoutinforBlocks">
+							<View class="l">
+								<Label class="i" text="Tip"/>
+								<Label class="ii" text="per person"/>
+							</View>
+							<Label id="tipPerPerson" class="amount" text="$0"/>
+						</View>
+						
+						<View class="checkoutinforBlocks">
+							<View class="l">
+								<Label class="i" text="Total"/>
+								<Label class="ii" text="per person"/>
+							</View>
+							<Label id="totalPerPerson" class="amount" text="$0"/>
+						</View>
+
+						<View class="checkoutinforBlocksTotal">
+							<View class="l">
+								<Label class="i" text="Total Tip" top="25%"/>
+							</View>
+							<Label id="total" class="amountTotal" text="$0"/>
+						</View>
+						
+					</View>
+	        		<Toolbar id="footer" platform="ios" borderTop="true" borderBottom="false">
+		        		 <!-- The Items tag sets the Toolbar.items property. -->
+			            <Items>
+			                    <FlexSpace/>
+			                    <Button onClick="oWindow" systemButton="INFO_DARK"/>
+			            </Items>
+		        	</Toolbar>     		
+    	</Window>
+	</Alloy>

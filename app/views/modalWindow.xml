@@ -1,0 +1,29 @@
+		<Alloy>
+	        <Window id="modalWin">
+		    <ListView id="sectionContact">
+		        <ListSection>
+		        	 <!-- Sets ListSection's headerView property -->
+	                <HeaderView> 
+	                    <View class="listInfoHeader">
+	                        <Label class="listInfoLabel">Contact & Support</Label>
+	                    </View>
+	                </HeaderView>
+			            <ListItem class="listInfoItem" title="Request New Feature" accessoryType='Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE'/>
+			            <ListItem class="listInfoItem" title="Support Further Development" accessoryType='Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE'/>
+			            <!-- <ListItem class="listInfoItem" title="Review This App" accessoryType='Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE'/> -->
+			    </ListSection>
+
+		        <ListSection>
+		        	 <!-- Sets ListSection's headerView property -->
+	                <HeaderView>
+	                    <View backgroundColor="#22c7c7">
+	                        <Label class="listInfoLabel">Like & Follow Us</Label>
+	                    </View>
+	                </HeaderView>
+			            <ListItem onClick="run" class="listInfoItem" title="Follow Me On Twitter" accessoryType='Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE'/>
+			            <ListItem class="listInfoItem" title="Like Us On Facebook" accessoryType='Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE'/>
+			            <!-- <ListItem class="listInfoItem" title="Share the love" accessoryType='Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE'/> -->
+		        </ListSection>
+		    </ListView>
+	        </Window>
+		</Alloy>

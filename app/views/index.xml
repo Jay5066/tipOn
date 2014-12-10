@@ -1,0 +1,43 @@
+	<Alloy>
+	    <NavigationWindow id="navWin" platform="ios">
+	        <Window id="mainWin" title="tipOn"> 
+		        <!-- Index view group 1  --> 
+		          <View id="viewGroupAmount">  
+			            <Label id="labelWindowTitle" text="Bill amount"/>
+			            <TextField id="amountTextField" platform="ios" keyboardType="Titanium.UI.KEYBOARD_DECIMAL_PAD">  	
+			                <!-- Sets the keyboardToolbar property -->
+			                <KeyboardToolbar>
+			                    <Toolbar>
+			                        <Items>
+			                            <FlexSpace/>
+			                            <Button id="done" onClick="doClick" systemButton="DONE"/>
+			                        </Items>
+			                    </Toolbar>
+			                </KeyboardToolbar>
+			            </TextField>
+		            </View> 
+
+		         <!-- End  --> 
+		         <!-- Index view group 2  --> 
+					<View id="viewGroupnumbOfpeople">
+		           		 <Label id="labelNumberOfpeople" text="Number of people"/>
+			           		 <View id="layoutHorizontal">	 
+			           		 	 <Button onTouchend="subtractNum" id="sub"/>
+			           		 	 	<Label id="splitNum" text="1"/>
+			           		 	 <Button onTouchend="addNum" id="add"/>
+			           		 </View>	           
+		            	<Button id="submitButton" onClick="submitClicked" title="Submit"/>
+		            </View>
+		 		<!-- End  --> 
+		        <Toolbar id="footer">
+		            <!-- The Items tag sets the Toolbar.items property. -->
+		            <Items>
+		                    <Label id="clearBtn" onClick="clearClick" text="Clear"/>
+		                    <FlexSpace/>
+		                    <Button onClick="oWindow" systemButton="INFO_DARK"/>
+		            </Items>
+		        </Toolbar>     		        
+	        </Window>
+	    </NavigationWindow>
+	</Alloy>
+

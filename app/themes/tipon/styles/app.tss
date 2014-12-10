@@ -1,0 +1,53 @@
+ /*Global style */
+
+"NavigationWindow":{
+	backgroundColor:"#8de7e7",
+}
+
+"Window":{
+	navTintColor : "#24d7d7",
+    titleAttributes : {
+        color : "#333",
+    },
+	backgroundColor:"#ededed",
+	width:Ti.UI.FILL ,
+	height:Ti.UI.FILL ,
+}
+
+/*"TextField":{
+	paddingLeft:"6dp",
+	color:"#21C0C0",
+	padding:"1dp",
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	backgroundColor:"#D9D9D9",
+	font: {
+        fontSize: '20dp',
+        fontWeight: 'bold',
+    }
+}*/
+
+"Toolbar":{
+	backgroundColor:"#21C0C0",
+	tintColor:"#434343",
+}
+
+"#labelWindowTitle":{
+	top:"10%",
+	color:"#363636",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontFamily: 'Lato-Bold',
+        fontSize: '28dp',
+        fontWeight:'normal',
+    },
+    
+    
+}
+
+"#footer":{	
+			bottom:0,
+			width:Ti.UI.FILL,
+			
+	}
+
+

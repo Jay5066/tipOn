@@ -1,0 +1,52 @@
+
+"#parentTipView":{
+ layout: 'vertical',
+}
+
+".viewTipbg":{
+	width:Ti.UI.FILL,
+    backgroundColor:"#24d7d7",
+    height:"26%",
+    bottom:1
+}
+ 
+".lpg":{ 
+   width:Ti.UI.FILL,
+} 
+ 
+".labelPercentAmout":{
+    color:"#fff",
+    font: {
+        fontFamily: 'Lato-Regular',
+        fontSize: '56dp',
+     }
+ }
+
+".percent":{
+	color:"#fff",
+    top:'35%',
+	left:"60%",
+	 font: {
+        fontFamily: 'Lato-Light',
+     }
+}
+
+ ".labelTip":{
+    color:"#fff",
+    top:'70%',
+    font:{
+     	fontFamily: 'Lato-Light',
+        fontSize: '20dp',
+     }
+}
+
+"#plus":{
+	top:"10%",
+	color:"#fff",
+	font: {
+        fontFamily: 'Lato-Light',
+        fontSize: '56dp',
+     }
+}
+
+

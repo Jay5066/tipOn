@@ -1,0 +1,23 @@
+".listInfoHeader":{
+	backgroundColor:"#22c7c7",
+}
+".listInfoLabel":{
+	  color:"#fff",
+  	width:Ti.UI.SIZE,
+  	height:'6%',
+    left:10,
+  	 font: {
+        fontFamily: 'Lato-Bold',
+        fontSize: '18dp',
+     } 
+}
+
+".listInfoItem":{
+  width:Ti.UI.SIZE,
+	accessoryType:'Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE',
+	 font: {
+        fontFamily: 'Lato-Regular',
+        fontSize: '16dp',
+     } 
+}
+

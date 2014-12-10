@@ -1,0 +1,37 @@
+		<Alloy>
+	        <Window title="Tip Amount">
+		       	<!-- Index view group 1  -->
+			        <View id="parentTipView"> 
+						
+						<View class="viewTipbg" onClick="percentViewTapped">
+								<View class="lpg"> 
+									<Label class="labelPercentAmout" text="15"/>
+									<Label class="percent" text="%"/>
+								 	 
+								</View>
+									 <Label class="labelTip" text="Good"/>
+						</View>
+								        
+						<View class="viewTipbg" onClick="percentViewTapped" backgroundColor="#22c7c7">
+								<View class="lpg"> 
+								   <Label class="labelPercentAmout" text="20"/>
+								    <Label class="percent" text="%"/>
+								</View>
+								   <Label class="labelTip" text="Great"/>
+						</View>
+								           
+						<View class="viewTipbg" onClick="percentViewTapped" backgroundColor="#23cfcf">
+								<View class="lpg">
+								    <Label class="labelPercentAmout" text="25"/>
+								    <Label class="percent" text="%"/>  
+								</View>
+								     <Label class="labelTip" text="Excellent" />
+						</View>
+								           
+							<View class="viewTipbg" onClick="plusViewTapped">
+								<Button id="plus" title='+'/>
+							</View>
+				
+					</View>  
+	        </Window>
+		</Alloy>

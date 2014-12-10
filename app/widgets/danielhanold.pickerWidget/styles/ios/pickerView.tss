@@ -1,0 +1,18 @@
+"#pickerView": {
+  backgroundColor: 'white',
+  bottom: 0,
+  height: 260,
+  zIndex: 99
+}
+
+"#toolbar": {
+  top: 0,
+  tintColor:"#fff",
+  barColor:'#21C0C0'
+}
+
+"#picker": {
+  top: 44,
+  selectionIndicator: true,
+  useSpinner: true
+}
