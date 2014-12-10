@@ -1,9 +1,0 @@
-<h1>tipOn</h1>			
-===========================================================
-<p>tipOn is a titanium Alloy based application that utilizes the model-view-controller (MVC) paradigm,
-which separates the application into three different components:</p>
-<ul>
-<li>Models provide the business logic, containing the rules, data and state of the application.</li>
-<li>Views provide the GUI components to the user, either presenting data or allowing the user to interact with the model data.</li>
-<li>Controllers provide the glue between the model and view components in the form of application logic.</li>
-</ul>
